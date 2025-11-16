@@ -84,9 +84,10 @@
 /*    Tablet styles (≥768px)      */
 /* ------------------------------ */
 @media (min-width: 768px) {
-  .team-section {
-    padding: 40px 0;
-  }
+  .team-section .container {
+  padding: 40px 32px;
+}
+  
   .team-title {
     font-size: 52px;
     margin-bottom: 24px;
@@ -124,9 +125,10 @@
 /*   Desktop styles (≥1336px)     */
 /* ------------------------------ */
 @media (min-width: 1336px) {
-  .team-section {
-    padding: 112px 0;
-  }
+  .team-section .container {
+  padding: 112px 64px;
+}
+  
   .team-grid {
     max-width: 1312px;
     gap: 64px 24px;
