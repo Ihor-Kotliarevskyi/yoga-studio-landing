@@ -110,10 +110,9 @@
 /*  768px  */
 
 @media screen and (min-width: 768px) {
-  .yoga-helps {
-    background-color: #f2fafa;
-    padding: 40px 0;
-  }
+  .yoga-helps .container {
+  padding: 40px 32px;
+}
 
   .helps-subtitle {
     font-size: 18px;
@@ -159,10 +158,10 @@
 /*  1336px  */
 
 @media screen and (min-width: 1336px) {
-  .yoga-helps {
-    background-color: #f2fafa;
-    padding: 112px 0;
-  }
+  .yoga-helps .container {
+  padding: 112px 64px;
+}
+  
   .helps-title {
     font-size: 52px;
   }
